@@ -1,0 +1,458 @@
+
+• 	Table of Contents
+• 	Index
+Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development, Third Edition
+By Craig Larman
+ 	
+Publisher	: Addison Wesley Professional
+Pub Date	: October 20, 2004
+ISBN	: 0-13-148906-2
+Pages	: 736
+   
+
+
+   		Copyright
+   		Praise for Applying UML and Patterns
+   		Contents by Major Topics
+   		Foreword
+   		Preface
+   	  		Educator and Web Resources
+   	  		Intended Audiencean Introduction!
+   	  		Prerequisites
+   	  		Java Examples, But …
+   	  		Book Organization
+   	  		About the Author
+   	  		Contact
+   	  		Enhancements to the Previous Edition
+   	  		Acknowledgments
+   	  		Typographical Conventions
+   	  		Production Notes
+   		Part 1.  Introduction
+   	  		    Chapter 1.  Object-Oriented Analysis and Design
+   	  		 Section 1.1.  What Will You Learn? Is it Useful?
+   	  		 Section 1.2.  The Most Important Learning Goal?
+   	  		 Section 1.3.  What is Analysis and Design?
+   	  		 Section 1.4.  What is Object-Oriented Analysis and Design?
+   	  		 Section 1.5.  A Short Example
+   	  		 Section 1.6.  What is the UML?
+   	  		 Section 1.7.  Visual Modeling is a Good Thing
+   	  		 Section 1.8.  History
+   	  		 Section 1.9.  Recommended Resources
+   	  		    Chapter 2.  Iterative, Evolutionary, and Agile
+   	  		Introduction
+   	  		 Section 2.1.  What is the UP? Are Other Methods Complementary?
+   	  		 Section 2.2.  What is Iterative and Evolutionary Development?
+   	  		 Section 2.3.  What About the Waterfall Lifecycle?
+   	  		 Section 2.4.  How to do Iterative and Evolutionary Analysis and Design?
+   	  		 Section 2.5.  What is Risk-Driven and Client-Driven Iterative Planning?
+   	  		 Section 2.6.  What are Agile Methods and Attitudes?
+   	  		 Section 2.7.  What is Agile Modeling?
+   	  		 Section 2.8.  What is an Agile UP?
+   	  		 Section 2.9.  Are There Other Critical UP Practices?
+   	  		 Section 2.10.  What are the UP Phases?
+   	  		 Section 2.11.  What are the UP Disciplines?
+   	  		 Section 2.12.  How to Customize the Process? The UP Development Case
+   	  		 Section 2.13.  You Know You Didn't Understand Iterative Development or the UP When...
+   	  		 Section 2.14.  History
+   	  		 Section 2.15.  Recommended Resources
+   	  		    Chapter 3.  Case Studies
+   	  		Introduction
+   	  		 Section 3.1.  What is and isn't Covered in the Case Studies?
+   	  		 Section 3.2.  Case Study Strategy: Iterative Development + Iterative Learning
+   	  		 Section 3.3.  Case One: The NextGen POS System
+   	  		 Section 3.4.  Case Two: The Monopoly Game System
+   		Part 2.  Inception
+   	  		    Chapter 4.  Inception is Not the Requirements Phase
+   	  		Introduction
+   	  		 Section 4.1.  What is Inception?
+   	  		 Section 4.2.  How Long is Inception?
+   	  		 Section 4.3.  What Artifacts May Start in Inception?
+   	  		 Section 4.4.  You Know You Didn't Understand Inception When...
+   	  		 Section 4.5.  How Much UML During Inception?
+   	  		    Chapter 5.  Evolutionary Requirements
+   	  		Introduction
+   	  		 Section 5.1.  Definition: Requirements
+   	  		 Section 5.2.  Evolutionary vs. Waterfall Requirements
+   	  		 Section 5.3.  What are Skillful Means to Find Requirements?
+   	  		 Section 5.4.  What are the Types and Categories of Requirements?
+   	  		 Section 5.5.  How are Requirements Organized in UP Artifacts?
+   	  		 Section 5.6.  Does the Book Contain Examples of These Artifacts?
+   	  		 Section 5.7.  Recommended Resources
+   	  		    Chapter 6.  Use Cases
+   	  		Introduction
+   	  		 Section 6.1.  Example
+   	  		 Section 6.2.  Definition: What are Actors, Scenarios, and Use Cases?
+   	  		 Section 6.3.  Use Cases and the Use-Case Model
+   	  		 Section 6.4.  Motivation: Why Use Cases?
+   	  		 Section 6.5.  Definition: Are Use Cases Functional Requirements?
+   	  		 Section 6.6.  Definition: What are Three Kinds of Actors?
+   	  		 Section 6.7.  Notation: What are Three Common Use Case Formats?
+   	  		 Section 6.8.  Example: Process Sale, Fully Dressed Style
+   	  		 Section 6.9.  What do the Sections Mean?
+   	  		 Section 6.10.  Notation: Are There Other Formats? A Two-Column Variation
+   	  		 Section 6.11.  Guideline: Write in an Essential UI-Free Style
+   	  		 Section 6.12.  Guideline: Write Terse Use Cases
+   	  		 Section 6.13.  Guideline: Write Black-Box Use Cases
+   	  		 Section 6.14.  Guideline: Take an Actor and Actor-Goal Perspective
+   	  		 Section 6.15.  Guideline: How to Find Use Cases
+   	  		 Section 6.16.  Guideline: What Tests Can Help Find Useful Use Cases?
+   	  		 Section 6.17.  Applying UML: Use Case Diagrams
+   	  		 Section 6.18.  Applying UML: Activity Diagrams
+   	  		 Section 6.19.  Motivation: Other Benefits of Use Cases? Requirements in Context
+   	  		 Section 6.20.  Example: Monopoly Game
+   	  		 Section 6.21.  Process: How to Work With Use Cases in Iterative Methods?
+   	  		 Section 6.22.  History
+   	  		 Section 6.23.  Recommended Resources
+   	  		    Chapter 7.  Other Requirements
+   	  		Introduction
+   	  		Other Requirement Artifacts
+   	  		 Section 7.1.  How Complete are these Examples?
+   	  		 Section 7.2.  Guideline: Should We Analyze These Thoroughly During Inception?
+   	  		 Section 7.3.  Guideline: Should These Artifacts be at the Project Website?
+   	  		 Section 7.4.  NextGen Example: (Partial) Supplementary Specification
+   	  		 Section 7.5.  Commentary: Supplementary Specification
+   	  		 Section 7.6.  NextGen Example: (Partial) Vision
+   	  		 Section 7.7.  Commentary: Vision
+   	  		 Section 7.8.  NextGen Example: A (Partial) Glossary
+   	  		 Section 7.9.  Commentary: Glossary (Data Dictionary)
+   	  		 Section 7.10.  NextGen Example: Business Rules (Domain Rules)
+   	  		 Section 7.11.  Commentary: Domain Rules
+   	  		 Section 7.12.  Process: Evolutionary Requirements in Iterative Methods
+   	  		 Section 7.13.  Recommended Resources
+   		Part 3.  Elaboration Iteration 1 Basics
+   	  		    Chapter 8.  Iteration 1Basics
+   	  		Introduction
+   	  		 Section 8.1.  Iteration 1 Requirements and Emphasis: Core OOA/D Skills
+   	  		 Section 8.2.  Process: Inception and Elaboration
+   	  		 Section 8.3.  Process: Planning the Next Iteration
+   	  		    Chapter 9.  Domain Models
+   	  		Introduction
+   	  		 Section 9.1.  Example
+   	  		 Section 9.2.  What is a Domain Model?
+   	  		 Section 9.3.  Motivation: Why Create a Domain Model?
+   	  		 Section 9.4.  Guideline: How to Create a Domain Model?
+   	  		 Section 9.5.  Guideline: How to Find Conceptual Classes?
+   	  		 Section 9.6.  Example: Find and Draw Conceptual Classes
+   	  		 Section 9.7.  Guideline: Agile ModelingSketching a Class Diagram
+   	  		 Section 9.8.  Guideline: Agile ModelingMaintain the Model in a Tool?
+   	  		 Section 9.9.  Guideline: Report ObjectsInclude 'Receipt' in the Model?
+   	  		 Section 9.10.  Guideline: Think Like a Mapmaker; Use Domain Terms
+   	  		 Section 9.11.  Guideline: How to Model the Unreal World?
+   	  		 Section 9.12.  Guideline: A Common Mistake with Attributes vs. Classes
+   	  		 Section 9.13.  Guideline: When to Model with 'Description' Classes?
+   	  		 Section 9.14.  Associations
+   	  		 Section 9.15.  Example: Associations in the Domain Models
+   	  		 Section 9.16.  Attributes
+   	  		 Section 9.17.  Example: Attributes in the Domain Models
+   	  		 Section 9.18.  Conclusion: Is the Domain Model Correct?
+   	  		 Section 9.19.  Process: Iterative and Evolutionary Domain Modeling
+   	  		 Section 9.20.  Recommended Resources
+   	  		    Chapter 10.  System Sequence Diagrams
+   	  		Introduction
+   	  		 Section 10.1.  Example: NextGen SSD
+   	  		 Section 10.2.  What are System Sequence Diagrams?
+   	  		 Section 10.3.  Motivation: Why Draw an SSD?
+   	  		 Section 10.4.  Applying UML: Sequence Diagrams
+   	  		 Section 10.5.  What is the Relationship Between SSDs and Use Cases?
+   	  		 Section 10.6.  How to Name System Events and Operations?
+   	  		 Section 10.7.  How to Model SSDs Involving Other External Systems?
+   	  		 Section 10.8.  What SSD Information to Place in the Glossary?
+   	  		 Section 10.9.  Example: Monopoly SSD
+   	  		 Section 10.10.  Process: Iterative and Evolutionary SSDs
+   	  		 Section 10.11.  History and Recommended Resources
+   	  		    Chapter 11.  Operation Contracts
+   	  		Introduction
+   	  		 Section 11.1.  Example
+   	  		 Section 11.2.  Definition: What are the Sections of a Contract?
+   	  		 Section 11.3.  Definition: What is a System Operation?
+   	  		 Section 11.4.  Definition: Postconditions
+   	  		 Section 11.5.  Example: enterItem Postconditions
+   	  		 Section 11.6.  Guideline: Should We Update the Domain Model?
+   	  		 Section 11.7.  Guideline: When Are Contracts Useful?
+   	  		 Section 11.8.  Guideline: How to Create and Write Contracts
+   	  		 Section 11.9.  Example: NextGen POS Contracts
+   	  		 Section 11.10.  Example: Monopoly Contracts
+   	  		 Section 11.11.  Applying UML: Operations, Contracts, and the OCL
+   	  		 Section 11.12.  Process: Operation Contracts Within the UP
+   	  		 Section 11.13.  History
+   	  		 Section 11.14.  Recommended Resources
+   	  		    Chapter 12.  Requirements to DesignIteratively
+   	  		Introduction
+   	  		 Section 12.1.  Iteratively Do the Right Thing, Do the Thing Right
+   	  		 Section 12.2.  Provoking Early Change
+   	  		 Section 12.3.  Didn't All That Analysis and Modeling Take Weeks To Do?
+   	  		    Chapter 13.  Logical Architecture and UML Package Diagrams
+   	  		Introduction
+   	  		 Section 13.1.  Example
+   	  		 Section 13.2.  What is the Logical Architecture? And Layers?
+   	  		 Section 13.3.  What Layers are the Focus in the Case Studies?
+   	  		 Section 13.4.  What is Software Architecture?
+   	  		 Section 13.5.  Applying UML: Package Diagrams
+   	  		 Section 13.6.  Guideline: Design with Layers
+   	  		 Section 13.7.  Guideline: The Model-View Separation Principle
+   	  		 Section 13.8.  What's the Connection Between SSDs, System Operations, and Layers?
+   	  		 Section 13.9.  Example: NextGen Logical Architecture and Package Diagram
+   	  		 Section 13.10.  Example: Monopoly Logical Architecture?
+   	  		 Section 13.11.  Recommended Resources
+   	  		    Chapter 14.  On to Object Design
+   	  		Introduction
+   	  		 Section 14.1.  Agile Modeling and Lightweight UML Drawing
+   	  		 Section 14.2.  UML CASE Tools
+   	  		 Section 14.3.  How Much Time Spent Drawing UML Before Coding?
+   	  		 Section 14.4.  Designing Objects: What are Static and Dynamic Modeling?
+   	  		 Section 14.5.  The Importance of Object Design Skill over UML Notation Skill
+   	  		 Section 14.6.  Other Object Design Techniques: CRC Cards
+   	  		    Chapter 15.  UML Interaction Diagrams
+   	  		Introduction
+   	  		 Section 15.1.  Sequence and Communication Diagrams
+   	  		 Section 15.2.  Novice UML Modelers Don't Pay Enough Attention to Interaction Diagrams!
+   	  		 Section 15.3.  Common UML Interaction Diagram Notation
+   	  		 Section 15.4.  Basic Sequence Diagram Notation
+   	  		 Section 15.5.  Basic Communication Diagram Notation
+   	  		    Chapter 16.  UML Class Diagrams
+   	  		Introduction
+   	  		 Section 16.1.  Applying UML: Common Class Diagram Notation
+   	  		 Section 16.2.  Definition: Design Class Diagram
+   	  		 Section 16.3.  Definition: Classifier
+   	  		 Section 16.4.  Ways to Show UML Attributes: Attribute Text and Association Lines
+   	  		 Section 16.5.  Note Symbols: Notes, Comments, Constraints, and Method Bodies
+   	  		 Section 16.6.  Operations and Methods
+   	  		 Section 16.7.  Keywords
+   	  		 Section 16.8.  Stereotypes, Profiles, and Tags
+   	  		 Section 16.9.  UML Properties and Property Strings
+   	  		 Section 16.10.  Generalization, Abstract Classes, Abstract Operations
+   	  		 Section 16.11.  Dependency
+   	  		 Section 16.12.  Interfaces
+   	  		 Section 16.13.  Composition Over Aggregation
+   	  		 Section 16.14.  Constraints
+   	  		 Section 16.15.  Qualified Association
+   	  		 Section 16.16.  Association Class
+   	  		 Section 16.17.  Singleton Classes
+   	  		 Section 16.18.  Template Classes and Interfaces
+   	  		 Section 16.19.  User-Defined Compartments
+   	  		 Section 16.20.  Active Class
+   	  		 Section 16.21.  What's the Relationship Between Interaction and Class Diagrams?
+   	  		    Chapter 17.  GRASP: Designing Objects with Responsibilities
+   	  		 Section 17.1.  UML versus Design Principles
+   	  		 Section 17.2.  Object Design: Example Inputs, Activities, and Outputs
+   	  		 Section 17.3.  Responsibilities and Responsibility-Driven Design
+   	  		 Section 17.4.  GRASP: A Methodical Approach to Basic OO Design
+   	  		 Section 17.5.  What's the Connection Between Responsibilities, GRASP, and UML Diagrams?
+   	  		 Section 17.6.  What are Patterns?
+   	  		 Section 17.7.  Where are We Now?
+   	  		 Section 17.8.  A Short Example of Object Design with GRASP
+   	  		 Section 17.9.  Applying GRASP to Object Design
+   	  		 Section 17.10.  Creator
+   	  		 Section 17.11.  Information Expert (or Expert)
+   	  		 Section 17.12.  Low Coupling
+   	  		 Section 17.13.  Controller
+   	  		 Section 17.14.  High Cohesion
+   	  		 Section 17.15.  Recommended Resources
+   	  		    Chapter 18.  Object Design Examples with GRASP
+   	  		Introduction
+   	  		 Section 18.1.  What is a Use Case Realization?
+   	  		 Section 18.2.  Artifact Comments
+   	  		 Section 18.3.  What's Next?
+   	  		 Section 18.4.  Use Case Realizations for the NextGen Iteration
+   	  		 Section 18.5.  Use Case Realizations for the Monopoly Iteration
+   	  		 Section 18.6.  Process: Iterative and Evolutionary Object Design
+   	  		 Section 18.7.  Summary
+   	  		    Chapter 19.  Designing for Visibility
+   	  		Introduction
+   	  		 Section 19.1.  Visibility Between Objects
+   	  		 Section 19.2.  What is Visibility?
+   	  		    Chapter 20.  Mapping Designs to Code
+   	  		Introduction
+   	  		 Section 20.1.  Programming and Iterative, Evolutionary Development
+   	  		 Section 20.2.  Mapping Designs to Code
+   	  		 Section 20.3.  Creating Class Definitions from DCDs
+   	  		 Section 20.4.  Creating Methods from Interaction Diagrams
+   	  		 Section 20.5.  Collection Classes in Code
+   	  		 Section 20.6.  Exceptions and Error Handling
+   	  		 Section 20.7.  Defining the Sale.makeLineItem Method
+   	  		 Section 20.8.  Order of Implementation
+   	  		 Section 20.9.  Test-Driven or Test-First Development
+   	  		 Section 20.10.  Summary of Mapping Designs to Code
+   	  		 Section 20.11.  Introduction to the NextGen POS Program Solution
+   	  		 Section 20.12.  Introduction to the Monopoly Program Solution
+   	  		    Chapter 21.  Test-Driven Development and Refactoring
+   	  		Introduction
+   	  		 Section 21.1.  Test-Driven Development
+   	  		 Section 21.2.  Refactoring
+   	  		 Section 21.3.  Recommended Resources
+   		Part 4.  Elaboration Iteration 2 More Patterns
+   	  		    Chapter 22.  UML Tools and UML as Blueprint
+   	  		Introduction
+   	  		 Section 22.1.  Forward, Reverse, and Round-Trip Engineering
+   	  		 Section 22.2.  What is a Common Report of Valuable Features?
+   	  		 Section 22.3.  What to Look For in a Tool?
+   	  		 Section 22.4.  If Sketching UML, How to Update the Diagrams After Coding?
+   	  		 Section 22.5.  Recommended Resources
+   	  		    Chapter 23.  Quick Analysis Update
+   	  		Introduction
+   	  		 Section 23.1.  Case Study: NextGen POS
+   	  		 Section 23.2.  Case Study: Monopoly
+   	  		    Chapter 24.  Iteration 2More Patterns
+   	  		Introduction
+   	  		 Section 24.1.  From Iteration 1 to 2
+   	  		 Section 24.2.  Iteration-2 Requirements and Emphasis: Object Design and Patterns
+   	  		    Chapter 25.  GRASP: More Objects with Responsibilities
+   	  		Introduction
+   	  		 Section 25.1.  Polymorphism
+   	  		 Section 25.2.  Pure Fabrication
+   	  		 Section 25.3.  Indirection
+   	  		 Section 25.4.  Protected Variations
+   	  		    Chapter 26.  Applying GoF Design Patterns
+   	  		Introduction
+   	  		 Section 26.1.  Adapter (GoF)
+   	  		 Section 26.2.  Some GRASP Principles as a Generalization of Other Patterns
+   	  		 Section 26.3.  "Analysis" Discoveries During Design: Domain Model
+   	  		 Section 26.4.  Factory
+   	  		 Section 26.5.  Singleton (GoF)
+   	  		 Section 26.6.  Conclusion of the External Services with Varying Interfaces Problem
+   	  		 Section 26.7.  Strategy (GoF)
+   	  		 Section 26.8.  Composite (GoF) and Other Design Principles
+   	  		 Section 26.9.  Facade (GoF)
+   	  		 Section 26.10.  Observer/Publish-Subscribe/Delegation Event Model (GoF)
+   	  		 Section 26.11.  Conclusion
+   	  		 Section 26.12.  Recommended Resources
+   		Part 5.  Elaboration Iteration 3 Intermediate Topics
+   	  		    Chapter 27.  Iteration 3Intermediate Topics
+   	  		Introduction
+   	  		 Section 27.1.  NextGen POS
+   	  		 Section 27.2.  Monopoly
+   	  		    Chapter 28.  UML Activity Diagrams and Modeling
+   	  		Introduction
+   	  		 Section 28.1.  Example
+   	  		 Section 28.2.  How to Apply Activity Diagrams?
+   	  		 Section 28.3.  More UML Activity Diagram Notation
+   	  		 Section 28.4.  Guidelines
+   	  		 Section 28.5.  Example: NextGen Activity Diagram
+   	  		 Section 28.6.  Process: Activity Diagrams in the UP
+   	  		 Section 28.7.  Background
+   	  		    Chapter 29.  UML State Machine Diagrams and Modeling
+   	  		Introduction
+   	  		 Section 29.1.  Example
+   	  		 Section 29.2.  Definitions: Events, States, and Transitions
+   	  		 Section 29.3.  How to Apply State Machine Diagrams?
+   	  		 Section 29.4.  More UML State Machine Diagram Notation
+   	  		 Section 29.5.  Example: UI Navigation Modeling with State Machines
+   	  		 Section 29.6.  Example: NextGen Use Case State Machine Diagram
+   	  		 Section 29.7.  Process: State Machine Diagrams in the UP
+   	  		 Section 29.8.  Recommended Resources
+   	  		    Chapter 30.  Relating Use Cases
+   	  		Introduction
+   	  		 Section 30.1.  The include Relationship
+   	  		 Section 30.2.  Terminology: Concrete, Abstract, Base, and Addition Use Cases
+   	  		 Section 30.3.  The extend Relationship
+   	  		 Section 30.4.  The generalize Relationship
+   	  		 Section 30.5.  Use Case Diagrams
+   	  		    Chapter 31.  More SSDs and Contracts
+   	  		Introduction
+   	  		 Section 31.1.  NextGen POS
+   	  		    Chapter 32.  Domain Model Refinement
+   	  		Introduction
+   	  		 Section 32.1.  New Concepts for the NextGen Domain Model
+   	  		 Section 32.2.  Generalization
+   	  		 Section 32.3.  Defining Conceptual Superclasses and Subclasses
+   	  		 Section 32.4.  When to Define a Conceptual Subclass?
+   	  		 Section 32.5.  When to Define a Conceptual Superclass?
+   	  		 Section 32.6.  NextGen POS Conceptual Class Hierarchies
+   	  		 Section 32.7.  Abstract Conceptual Classes
+   	  		 Section 32.8.  Modeling Changing States
+   	  		 Section 32.9.  Class Hierarchies and Inheritance in Software
+   	  		 Section 32.10.  Association Classes
+   	  		 Section 32.11.  Aggregation and Composition
+   	  		 Section 32.12.  Time Intervals and Product PricesFixing an Iteration 1 "Error"
+   	  		 Section 32.13.  Association Role Names
+   	  		 Section 32.14.  Roles as Concepts versus Roles in Associations
+   	  		 Section 32.15.  Derived Elements
+   	  		 Section 32.16.  Qualified Associations
+   	  		 Section 32.17.  Reflexive Associations
+   	  		 Section 32.18.  Using Packages to Organize the Domain Model
+   	  		 Section 32.19.  Example: Monopoly Domain Model Refinements
+   	  		    Chapter 33.  Architectural Analysis
+   	  		Introduction
+   	  		 Section 33.1.  Process: When Do We Start Architectural Analysis?
+   	  		 Section 33.2.  Definition: Variation and Evolution Points
+   	  		 Section 33.3.  Architectural Analysis
+   	  		 Section 33.4.  Common Steps in Architectural Analysis
+   	  		 Section 33.5.  The Science: Identification and Analysis of Architectural Factors
+   	  		 Section 33.6.  Example: Partial NextGen POS Architectural Factor Table
+   	  		 Section 33.7.  The Art: Resolution of Architectural Factors
+   	  		 Section 33.8.  Summary of Themes in Architectural Analysis
+   	  		 Section 33.9.  Process: Iterative Architecture in the UP
+   	  		 Section 33.10.  Recommended Resources
+   	  		    Chapter 34.  Logical Architecture Refinement
+   	  		Introduction
+   	  		 Section 34.1.  Example: NextGen Logical Architecture
+   	  		 Section 34.2.  Collaborations with the Layers Pattern
+   	  		 Section 34.3.  Other Layer Pattern Issues
+   	  		 Section 34.4.  Model-View Separation and "Upward" Communication
+   	  		 Section 34.5.  Recommended Resources
+   	  		    Chapter 35.  More Object Design with GoF Patterns
+   	  		Introduction
+   	  		 Section 35.1.  Example: NextGen POS
+   	  		 Section 35.2.  Failover to Local Services; Performance with Local Caching
+   	  		 Section 35.3.  Handling Failure
+   	  		 Section 35.4.  Failover to Local Services with a Proxy (GoF)
+   	  		 Section 35.5.  Designing for Non-Functional or Quality Requirements
+   	  		 Section 35.6.  Accessing External Physical Devices with Adapters
+   	  		 Section 35.7.  Abstract Factory (GoF) for Families of Related Objects
+   	  		 Section 35.8.  Handling Payments with Polymorphism and Do It Myself
+   	  		 Section 35.9.  Example: Monopoly
+   	  		 Section 35.10.  Conclusion
+   	  		    Chapter 36.  Package Design
+   	  		Introduction
+   	  		 Section 36.1.  Package Organization Guidelines
+   	  		 Section 36.2.  Recommended Resources
+   	  		    Chapter 37.  UML Deployment and Component Diagrams
+   	  		 Section 37.1.  Deployment Diagrams
+   	  		 Section 37.2.  Component Diagrams
+   	  		    Chapter 38.  Designing a Persistence Framework with Patterns
+   	  		Introduction
+   	  		 Section 38.1.  The Problem: Persistent Objects
+   	  		 Section 38.2.  The Solution: A Persistence Service from a Persistence Framework
+   	  		 Section 38.3.  Frameworks
+   	  		 Section 38.4.  Requirements for the Persistence Service and Framework
+   	  		 Section 38.5.  Key Ideas
+   	  		 Section 38.6.  Pattern: Representing Objects as Tables
+   	  		 Section 38.7.  UML Data Modeling Profile
+   	  		 Section 38.8.  Pattern: Object Identifier
+   	  		 Section 38.9.  Accessing a Persistence Service with a Facade
+   	  		 Section 38.10.  Mapping Objects: Database Mapper or Database Broker Pattern
+   	  		 Section 38.11.  Framework Design with the Template Method Pattern
+   	  		 Section 38.12.  Materialization with the Template Method Pattern
+   	  		 Section 38.13.  Configuring Mappers with a MapperFactory
+   	  		 Section 38.14.  Pattern: Cache Management
+   	  		 Section 38.15.  Consolidating and Hiding SQL Statements in One Class
+   	  		 Section 38.16.  Transactional States and the State Pattern
+   	  		 Section 38.17.  Designing a Transaction with the Command Pattern
+   	  		 Section 38.18.  Lazy Materialization with a Virtual Proxy
+   	  		 Section 38.19.  How to Represent Relationships in Tables
+   	  		 Section 38.20.  PersistentObject Superclass and Separation of Concerns
+   	  		 Section 38.21.  Unresolved Issues
+   	  		    Chapter 39.  Documenting Architecture: UML & the N+1 View Model
+   	  		Introduction
+   	  		 Section 39.1.  The SAD and Its Architectural Views
+   	  		 Section 39.2.  Notation: The Structure of a SAD
+   	  		 Section 39.3.  Example: A NextGen POS SAD
+   	  		 Section 39.4.  Example: A Jakarta Struts SAD
+   	  		 Section 39.5.  Process: Iterative Architectural Documentation
+   	  		 Section 39.6.  Recommended Resources
+   		Part 6.  Special Topics
+   	  		    Chapter 40.  More on Iterative Development and Agile Project Management
+   	  		Introduction
+   	  		 Section 40.1.  How to Plan an Iteration?
+   	  		 Section 40.2.  Adaptive versus Predictive Planning
+   	  		 Section 40.3.  Phase and Iteration Plans
+   	  		 Section 40.4.  How to Plan Iterations with Use Cases and Scenarios?
+   	  		 Section 40.5.  The (In)Validity of Early Estimates
+   	  		 Section 40.6.  Organizing Project Artifacts
+   	  		 Section 40.7.  You Know You Didn't Understand Iterative Planning When…
+   	  		 Section 40.8.  Recommended Resources
+   		Bibliography
+   		Glossary
+   		    Inside Front Cover
+   		    Inside Back Cover
+   		Index
