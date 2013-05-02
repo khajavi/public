@@ -1,10 +1,4 @@
 {
-    "Theme" : "amelia",
-    "Title": "Milad's notes",
-    "Css": [
-	"custom.css",
-        "http://assets.markdown.io/themes/bootstrap-assets/common.css" 
-    ],
-    "StandaloneCss": true,
-    "Navigation": "navigation.txt",
+"Title": "Café Fantasia",
+"Theme": "simplex"
 }
